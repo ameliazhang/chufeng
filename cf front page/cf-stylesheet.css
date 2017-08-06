@@ -1,0 +1,49 @@
+a{
+	color:red;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+nav {
+	position: fixed;
+	float:left;
+	color:red;
+	padding-left:10px;
+}
+
+#menu-png {
+	padding:10px 0px 0px 5px;
+	float:left;
+}
+
+ #en {
+	margin:0;
+	padding-left:15px;
+	font-size:150%;
+	float:left;
+	margin-top:-18px;
+
+}
+
+
+#logo-bundle {
+
+	position: fixed;
+	margin-left:35%;
+	margin-top:5%;
+	padding-bottom:400px;
+	width:400px;
+
+}
+
+#logo {
+    margin-left:100px;
+}
+
+#tagline {
+	display:block;
+	margin-left:10px;
+}
+
