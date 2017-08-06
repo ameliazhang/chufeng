@@ -1,0 +1,136 @@
+       
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    /* float:left; how come no workey */
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+  h1 {
+    color:white;
+  }
+
+  #projects {
+    color:white;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">关于</a>
+    <a href="#">项目</a>
+    <a href="#">客户</a>
+    <a href="#">联系</a>
+    <h1>hello</h1>
+    <ul id="projects">
+                <li>主要项目</li>
+                   <li>东方普罗旺斯别墅</li>
+                   <li> 龙湾别墅</li>
+                   <li>中海瓦尔登湖别墅</li>
+                   <li>丽苑小区东区别墅</li>
+                   <li> 丽苑小区西区别墅</li>
+                   <li>泉发花园别墅</li>
+                   <li> 中海瓦尔登湖别墅</li>
+                   <li> 中粮祥云别墅</li>
+                   <li> 香江花园别墅</li>
+                   <li>公主郡别墅</li>
+                   <li>龙湖滟澜山别墅</li>
+                   <li>丽苑小区别墅西区</li>
+                   <li>深圳赛维纳酒店  </li>
+                   <li>中粮祥云公寓</li>
+                   <li>朗琴园公寓</li>
+                   <li>华贸公寓</li>
+                   <li>SOHO现代城公寓</li>
+                   <li> 欧陆苑四合院</li>
+                   <li> 高碑店古典家具展厅</li>
+                   <li>  启明星双语学校</li>
+                   <li> AIFF学校</li>
+                   <li>Mammalina国际幼儿园</li>
+                   <li> 珠海家庭酒店</li>
+                   <li>  某驻华大使馆</li>
+                   <li>  奔驰天竺之星</li>
+                   <li>  中式长廊</li>
+                   <li>  停车场</li>
+                   <li> 体育馆</li>
+                   <li>  舞台</li>
+                   <li> 跑道</li>
+    </ul>
+  </div>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+<h2>Fullscreen Overlay Nav Example</h2>
+<p>Click on the element below to open the fullscreen overlay navigation menu.</p>
+<p>In this example, the navigation menu will slide in, from left to right:</p>
+<img src="https://cdn.pixabay.com/photo/2012/03/04/00/03/animal-21741_960_720.jpg">
+
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
+</body>
+</html>
