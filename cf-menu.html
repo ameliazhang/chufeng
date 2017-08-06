@@ -1,4 +1,4 @@
-       
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,13 +24,13 @@ body {
 .overlay-content {
     position: relative;
     /* float:left; how come no workey */
-    top: 25%;
+    top: 7%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
 }
 
-.overlay a{
+.overlay a, .overlay h1, .overlay ul li {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
@@ -39,7 +39,18 @@ body {
     transition: 0.3s;
 }
 
-.overlay a:hover, .overlay a:focus {
+#small-menu {
+   float: left;
+}
+
+#projects{
+   float: right;
+   margin-right: 20%;
+   text-align: center;
+
+}
+
+.overlay a:hover, .overlay a:focus, .overlay ul li:hover, .overlay ul li:focus {
     color: #f1f1f1;
 }
 
@@ -58,13 +69,6 @@ body {
     right: 35px;
   }
 
-  h1 {
-    color:white;
-  }
-
-  #projects {
-    color:white;
-  }
 }
 </style>
 </head>
@@ -73,11 +77,12 @@ body {
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
-    <a href="#">关于</a>
-    <a href="#">项目</a>
-    <a href="#">客户</a>
-    <a href="#">联系</a>
-    <h1>hello</h1>
+    <ul id=small-menu>
+      <li><a href="#">关于</a></li>
+      <li><a href="#">项目</a></li>
+      <li><a href="#">客户</a></li>
+      <li><a href="#">联系</a></li>
+  </ul>
     <ul id="projects">
                 <li>主要项目</li>
                    <li>东方普罗旺斯别墅</li>
@@ -131,6 +136,6 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
 </script>
-     
+
 </body>
 </html>
