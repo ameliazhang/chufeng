@@ -28,30 +28,145 @@ nav {
 	margin-top:-18px;
 }
 
+/*ALL THE SHITZ IN CONTAINER 1 SWAGGA SWAGGA BOOM BOOM*/
+
 #container1 {
 
-	background-color:teal;
-	margin-left:15%;
-	margin-top:5%;
-    
+	margin-left:65%;
+
+
+}
+
+#p1 {
+	padding-left:10%;
+	z-index:999;
+
+}
+
+#t1 {
+	margin-top:-95%;
+	mix-blend-mode: multiply;
+	margin-left:-75%;
+	z-index:10;
+
 }
 
 .lines {
 
-  mix-blend-mode: multiply;
+  mix-blend-mode: multiply; 
   float:left;
   position:relative;
-  background-color:red;
   height:500px;
   width:800px;
-  margin-top:-10%;
+  margin-top:-30%;
+  margin-left:40%;
 }
 
+/*ALL THE SHITZ IN CONTAINER 2 SWAGGA SWAGGA BOOM BOOM*/
 
 #container2 {
+	margin-left:10%;
+	position:absolute;
+	margin-top:10%;
+
+
 
 }
 
-#container3 {
+#p2{
+	z-index:3;
+	background-image:url(lines.png);
 
+
+}
+
+#t2{
+	position:absolute;
+	margin-top:-100%;
+	margin-left:70%;
+}
+
+#t2-2{
+	width:500px;
+	margin-top:-100%;
+	margin-left:150%;
+}
+
+
+
+#p3{
+	position:absolute;
+	margin-left:40%;
+	margin-top:140%;
+
+}
+
+/*ALL THE SHITZ IN CONTAINER 3 SWAGGA SWAGGA BOOM BOOM*/
+
+
+#container3 {
+	margin-top:70%;
+	z-index:99;
+
+}
+
+#p3/*image with erk*/{
+	float:right;
+	margin-top:-20%;
+	margin-left:140%;
+
+
+}
+
+#p3-2/*second image with pond*/{
+	margin-top:5%;
+}
+
+
+#t3{
+	position:absolute;
+	margin-left:80%;
+	mix-blend-mode: multiply;
+
+}
+
+#l3{
+	position:absolute;
+	mix-blend-mode: multiply;
+	z-index:1;
+
+}
+
+
+/*ALL THE SHITZ IN CONTAINER 4 SWAGGA SWAGGA BOOM BOOM*/
+
+#container4{
+	margin-top:90%;
+	position:absolute;
+	margin-left:30%;
+	z-index:99;
+
+
+}
+
+#logo4{
+	float:right;
+	mix-blend-mode: multiply;
+	margin-left:30%;
+}
+#about{
+
+	margin-left:120%;
+	width:400px;
+	position:absolute
+}
+
+#lll{
+	position:absolute;
+	margin-left: 10%;
+}
+
+#ll1{
+	position:absolute;
+	margin-top:-50%;
 }
