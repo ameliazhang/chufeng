@@ -1,0 +1,57 @@
+a{
+	color:red;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+nav {
+	position: fixed;
+	float:left;
+	color:red;
+	padding-left:10px;
+	clear:both;
+	z-index: 999;
+}
+
+#menu-png {
+	padding:10px 0px 0px 5px;
+	float:left;
+}
+
+ #en {
+	margin:0;
+	padding-left:15px;
+	font-size:150%;
+	float:left;
+	margin-top:-18px;
+}
+
+#container1 {
+
+	background-color:teal;
+	margin-left:15%;
+	margin-top:5%;
+    
+}
+
+.lines {
+
+  mix-blend-mode: multiply;
+  float:left;
+  position:relative;
+  background-color:red;
+  height:500px;
+  width:800px;
+  margin-top:-10%;
+}
+
+
+#container2 {
+
+}
+
+#container3 {
+
+}
