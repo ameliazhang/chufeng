@@ -8,10 +8,9 @@ body {
 }
 
 nav {
-	position: fixed;
-	float:left;
 	color:red;
 	padding-left:10px;
+
 }
 
 
@@ -40,7 +39,7 @@ nav {
 .overlay a, .overlay h1, .overlay ul li {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 90%;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -65,11 +64,11 @@ nav {
     position: absolute;
     top: 20px;
     right: 45px;
-    font-size: 60px;
+    font-size: 150%;
 }
 
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
+@media screen and (min-width: 460px) {
+  .overlay a {font-size: 200%}
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
@@ -78,37 +77,71 @@ nav {
 
 }
 
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 200px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 
-#menu-png {
-	padding:10px 0px 0px 5px;
-	float:left;
 }
 
- #en {
-	margin:0;
-	padding-left:15px;
-	font-size:150%;
-	float:left;
-	margin-top:-18px;
+.nav-icon{
+	display:inline-block;
+	margin-top:-1.5%;
+}
 
+#menu-png {
+float:left;
+padding-bottom:30%;
+}
+
+#en {
+	float:right;
+	font-size:150%;
 }
 
 
 #logo-bundle {
-
-	position: fixed;
-	margin-left:35%;
-	margin-top:5%;
-	padding-bottom:400px;
-	width:400px;
-
 }
 
 #logo {
-    margin-left:100px;
+  display: block;
+	margin:5% auto auto auto;
 }
 
 #tagline {
 	display:block;
-	margin-left:10px;
+	margin: auto;
+}
+
+@media only screen and (max-width: 460px) {
+    /* For phone: */
+		.nav-icon{
+			display:inline-block;
+			margin-top:-10px;
+		}
+    #menu-png{
+			padding:-10px 0px 0px 5px;
+			float:left;
+		}
+
+		#menu-png img{
+		 width: 30px;
+		 height:auto;
+		}
+		#en{
+			float:right;
+			font-size:100%;
+		}
+		#tagline{
+			width: 40%;
+			height: auto;
+		}
+		#logo{
+			width:27%;
+			height: auto;
+			margin-top:20%;
+		}
 }
